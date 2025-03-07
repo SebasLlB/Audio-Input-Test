@@ -1,6 +1,6 @@
 # Voice-Activated-Setup
 
-##What does it do?
+## What does it do?
 This was an early attempt to learn how to operate and set up common python libraries
 which focus on audio transcription.
 
