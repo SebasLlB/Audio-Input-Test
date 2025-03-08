@@ -3,7 +3,7 @@ from elevenlabs import play, VoiceSettings
 
 '''Access the EL api'''
 client = ElevenLabs(
-  api_key='sk_bd2588eedba7547c6fba9e9ca6eb3dd6a1b2911cbcd8e9f3',
+  api_key='secret-api-key',
 )
 
 '''Change Voice settings. '''
