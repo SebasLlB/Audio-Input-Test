@@ -11,8 +11,8 @@ circuitry = 'https://neuron.eng.wayne.edu/ECE330/Practical_Electronics_for_Inven
 physics = 'https://salmanisaleh.wordpress.com/wp-content/uploads/2019/02/physics-for-scientists-7th-ed.pdf'
 
 porcupine = pvporcupine.create(
-    access_key = "nQznlljF2uUHKiHaVrKT2kdWNaTuSJEq6gMCKcMsIaBzhHLQ6B6t9A==",
-    keyword_paths = ['C:\\Users\\USER\\Desktop\\KeyWords\\study_en_windows_v3_0_0\\study.ppn']
+    access_key = "secret-API-key",
+    keyword_paths = ['Keyword-path']
 )
 
 pa = pyaudio.PyAudio()
