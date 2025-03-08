@@ -2,7 +2,7 @@
 import openai
 
 # Set your OpenAI and ElevenLabs API key
-openai.api_key = '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'
+openai.api_key = 'secret-api-key'
 
 
 # Function to send a prompt to the AI and get a response
