@@ -15,7 +15,6 @@ print("done")
 import scipy.io.wavfile as wav
 wav.write("test.wav", 44000, audio)
 
-
 '''Finally, play the created audio file'''
 print("playing audio")
 sd.play(audio, 44000)
