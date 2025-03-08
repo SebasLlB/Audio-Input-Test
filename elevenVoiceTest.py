@@ -18,7 +18,7 @@ client.voices.edit_settings(
 
 '''Generate the audio'''
 audio = client.generate(
-  text="Welcome to Datacamp's beginner's guide to the ElevenLabs API. Hoy dia, todo esta bien. Cuantos cuentos cuenta Pablo? Que tal diez?",
+  text="This is a test for both english and spanish voice. Hoy dia, todo esta bien. Enserio sera esto posible",
   voice = 'XfNU2rGpBa01ckF309OY',
   model = "eleven_multilingual_v2"
 )
