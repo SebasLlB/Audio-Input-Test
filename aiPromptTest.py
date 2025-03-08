@@ -1,11 +1,11 @@
-#OpenAi libraries for text generation and audio to text
+'''Import the openai library'''
 import openai
 
-# Set your OpenAI and ElevenLabs API key
+'''Access the personal API'''
 openai.api_key = 'secret-api-key'
 
 
-# Function to send a prompt to the AI and get a response
+'''Ask openai's gpt 4o mini a question and get a response back'''
 def ask_ai(question):
     response = openai.chat.completions.create(
         model="gpt-4o-mini",
