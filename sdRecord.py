@@ -1,25 +1,25 @@
 import sounddevice as sd
 import numpy    
 
-#initial conditions
-duration = 4
+'''Starting parameters'''
+audio_time = 4
 sample_rate = 44000
 
-#Record
+'''Start recording'''
 print("Start")
-audio = sd.rec(int(duration * sample_rate), samplerate= 44000, channels= 1, dtype= 'float32')
+audio = sd.rec(int(audio_time * sample_rate), samplerate= 44000, channels= 1, dtype= 'float32')
 sd.wait()
 print("done")
 
-#Write recorded audio as an audio file
+'''Start writing the audio file'''
 import scipy.io.wavfile as wav
 wav.write("test.wav", 44000, audio)
 
 
-#Play the recorded audio
+'''Finally, play the created audio file'''
 print("playing audio")
 sd.play(audio, 44000)
 sd.wait()
-print("done")
+print("end")
 
 
